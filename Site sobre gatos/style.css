@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&family=Lobster&family=Pacifico&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;500&family=Lobster&family=Ubuntu:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* CSS HEX */
+    --light-coral: #f08080ff;
+    --coral-pink: #f4978eff;
+    --melon: #f8ad9dff;
+    --apricot: #fbc4abff;
+    --light-orange: #ffdab9ff;
+
+}
+
+h1 {
+    color: var(--light-coral);
+    font-family: 'Pacifico', cursive;
+}
+h2, h3 {
+    color: var(--coral-pink);
+    font-family: 'Pacifico', cursive;
+}
+
+
+body {
+    background-color: #e9ecef;
+}
+
+a {
+    color: var(--burnt-orange);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+p {
+    color: var(--melon);
+    font-family: 'Fira Sans', sans-serif;
+}
